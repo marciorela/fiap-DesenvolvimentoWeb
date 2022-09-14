@@ -1,0 +1,33 @@
+﻿@model Aluno
+@{
+    Layout = "_layout";
+    //Layout = null;
+}
+
+@*
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/home/politicas">Politicas</a></li>
+    </ul>
+</nav>
+*@
+
+@*@foreach (var item in ((List<Aluno>)ViewBag.Alunos).Take(10))
+{
+        <h1>@item.Nome</h1>
+}
+
+<h1>Olá @ViewData["Nome"]</h1>
+<h1>Olá @ViewBag.Sobrenome</h1>
+<h1>Olá @Model.Nome</h1>
+<h1>Olá @Model.Sobrenome</h1>
+*@
+
+<email email="joaquim"></email>
+
+<partial name="_Aluno" model="@Model"/>
+@*<partial name="_Aluno"/>*@
+
+<email 
+@*@await Component.InvokeAsync("Noticias", new { total = 3, noticiasUrgentes = false});*@

@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @*@await Html.PartialAsync("_Menu")*@
+
+        <partial name="_Menu"></partial>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

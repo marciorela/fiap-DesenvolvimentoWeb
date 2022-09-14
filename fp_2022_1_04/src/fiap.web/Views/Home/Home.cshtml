@@ -1,0 +1,10 @@
+﻿
+<h1>Home</h1>
+
+@foreach (var item in ((List<Aluno>)ViewBag.Alunos).Take(10))
+{
+    <partial name="_Aluno" model="item"></partial>
+}
+
+
+

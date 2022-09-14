@@ -1,0 +1,95 @@
+﻿@model Aluno
+@{
+    //Layout = "_Layout";
+    //Layout = "_Layout2";
+    //Layout = null;
+}
+
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">Teste 1</h1>
+        <p class="lead text-muted">Conheca as novidades sobre os melhores destinos e esteja sempre por dentro das novidades.</p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">Buscar passagens</a>
+            <a href="#" class="btn btn-secondary my-2">Conheca nosso blog</a>
+        </p>
+    </div>
+</section>
+
+<div class="row">
+    <div id="carroseul" class="col">
+        <div class="jcarousel-wrapper">
+            <div class="jcarousel">
+                <ul>
+                    <li>
+                        <img class="carroseulimage" src="~/images/imagem-1.jpg" />
+                    </li>
+                    <li>
+                        <img class="carroseulimage" src="~/images/imagem-2.jpg" />
+                    </li>
+                    <li>
+                        <img class="carroseulimage" src="~/images/imagem-3.jpg" />
+                    </li>
+                    <li>
+                        <img class="carroseulimage" src="~/images/imagem-4.jpg" />
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+            </div>
+            <div>	    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div id="menu">
+        <ul>
+            <li>
+                <img class="icon" src="~/images/brasil.png" />
+                Brasil
+            </li>
+            <li>
+                <img class="icon" src="~/images/alemanha.png" />
+                Alemanha
+            </li>
+            <li>
+                <img class="icon" src="~/images/grecia.png" />
+                Grecia
+            </li>
+            <li>
+                <img class="icon" src="~/images/eua.png" />
+                EUA
+            </li>
+            <li>
+                <img class="icon" src="~/images/canada.png" />
+                Canada
+            </li>
+            <li>
+                <img class="icon" src="~/images/argentina.png" />
+                Argentina
+            </li>
+            <li>
+                <img class="icon" src="~/images/japao.png" />
+                Japão
+            </li>
+            <li>
+                <img class="icon" src="~/images/italia.png" />
+                Italia
+            </li>
+            <li>
+                <img class="icon" src="~/images/espanha.png" />
+                Espanha
+            </li>
+            <li>
+                <img class="icon" src="~/images/portugal.png" />
+                Portugal
+            </li>
+        </ul>
+    </div>
+</div>
+
+<vc:noticias total="20" noticias-urgentes="false"></vc:noticias>
